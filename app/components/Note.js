@@ -2,7 +2,7 @@
 import React,{Component} from 'react';
 import List from 'List';
 import {connect} from 'react-redux';
-import {removeItem} from './action/action';
+import {removeItem} from 'action';
 
 class Note extends Component{
 

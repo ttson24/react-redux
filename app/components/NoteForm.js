@@ -1,7 +1,7 @@
 'use strict'
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
-import {addItem, toggle} from './action/action';
+import {addItem, toggle} from 'action';
 
 class NoteForm extends Component{
 

@@ -1,7 +1,3 @@
-'use strict'
-import React from "react";
-import ReactDOM from "react-dom";
-import {connect} from 'react-redux';
 import {addItem, removeItem, toggle} from '../../app/action/action';
 
 describe('addItem', () => {

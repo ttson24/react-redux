@@ -10,7 +10,7 @@ module.exports = {
     alias: {
       reducer: 'app/reducer/reducer.js',
       store: 'app/storeConfig.js',
-      action: 'app/action.js',
+      action: 'app/action/action.js',
       List: 'app/components/List.js',
       Note: 'app/components/Note.js',
       NoteForm: 'app/components/NoteForm.js'
@@ -23,7 +23,6 @@ module.exports = {
         query: {
           presets: ['es2015', 'react','stage-0']
         },
-        test: /\.jsx?$/,/\.js?$/
         exclude: /node_modules/
       }
     ]
